@@ -1,0 +1,209 @@
+
+html, body, #app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #191621;
+
+}
+
+
+.songList {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    color: white;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: Black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.home {
+    height: 10000px;
+    flex-shrink: 0;
+    background: #191621;
+    padding: 30px;
+}
+
+.aboutMe {
+    text-align: center;
+    padding: 20px;
+    height: 882px;
+    background-color: #191621;
+}
+
+
+
+button.cancel {
+    background-color: #e74c3c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8645E8;
+    height: 5%;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-end;
+    width: 60px;
+}
+
+.logo-text {
+    color: white;
+    font-family: Bahnschrift, serif;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid #000000;
+    background-color: #45e8a4;
+}
+
+h3 {
+    font-weight: 800;
+}
+
+.button {
+    margin: 100px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    color : rebeccapurple;
+    font-family: Bahnschrift, serif;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+p {
+    color: white;
+    font-family: Bahnschrift, serif;
+    font-size: 10px;
+}
+
+.landing {
+    color: white;
+}
+
+.active {
+    color: #d2b3ff; /* Change to your preferred active color */
+    /* Add other active styles if needed */
+}
+
+#navigaton {
+    background: #22202A;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    background: #ece0ff;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.songFilter {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.active {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.meh {
+    background-color: #8645E8;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 5px 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+#body {
+    display: grid;
+    grid-template-columns: 20% 1fr; /* Use percentages and "fr" units */
+
+}
+
+
+.gggamebrotherincrhist {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center align items */
+
+}
+
+.stupidbutton {
+    background-color: #8645E8;
+    border: none;
+    color: #fff;
+
+
+}
+
+.router-link-active {
+    color: yellow;
+}
